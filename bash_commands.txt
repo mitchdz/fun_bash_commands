@@ -1,0 +1,5 @@
+sed -e '/foo \' -e 'bar' file1
+	//This command looks for the string "foo"
+	// in file1, and replaces the entire line with "bar"
+
+
