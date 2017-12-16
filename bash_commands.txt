@@ -2,4 +2,7 @@ sed -e '/foo \' -e 'bar' file1
 	//This command looks for the string "foo"
 	// in file1, and replaces the entire line with "bar"
 
-
+watch -n5 'sudo kill -USR1 $(pgrep ^dd)'
+	//this command shows the output of dd
+	//every 5 seconds in the terminal that
+	//dd is currently being used on.
