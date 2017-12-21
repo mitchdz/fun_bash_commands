@@ -6,3 +6,8 @@ watch -n5 'sudo kill -USR1 $(pgrep ^dd)'
 	//this command shows the output of dd
 	//every 5 seconds in the terminal that
 	//dd is currently being used on.
+
+sudo hdparm -Tt /dev/sda
+	//hdparm stress tests your drive.
+	//replace "sda" with whatever drive you want.
+	//use lsblk to see your current block devices.
