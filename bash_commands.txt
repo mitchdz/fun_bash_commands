@@ -11,3 +11,18 @@ sudo hdparm -Tt /dev/sda
 	//hdparm stress tests your drive.
 	//replace "sda" with whatever drive you want.
 	//use lsblk to see your current block devices.
+
+
+
+netstat   ////  -tupln		///   -nputw
+
+
+	//nputw shows all outgoing data. Add c for continuous
+
+
+
+
+
+
+
+
