@@ -15,8 +15,6 @@ sudo hdparm -Tt /dev/sda
 
 
 netstat   ////  -tupln		///   -nputw
-
-
 	//nputw shows all outgoing data. Add c for continuous
 
 
