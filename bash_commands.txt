@@ -22,8 +22,6 @@ netstat   ////  -tupln		///   -nputw
 
 
 
-
-
 -----Following commands are for irssi IRC client on the freenode server------
 
 /ignore -channels #channel * JOINS PARTS QUITS NICKS
