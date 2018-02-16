@@ -13,7 +13,6 @@ sudo hdparm -Tt /dev/sda
 	//use lsblk to see your current block devices.
 
 
-
 netstat   ////  -tupln		///   -nputw
 	//nputw shows all outgoing data. Add c for continuous
 
